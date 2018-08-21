@@ -1,0 +1,7 @@
+{
+  "name": "openclass-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
