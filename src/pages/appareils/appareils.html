@@ -1,0 +1,11 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Appareils</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <button ion-item *ngFor="let appareil of appareilsList; let i = index" (click)="onLoadAppareil(i)">{{ appareil.name }}</button>
+    </ion-list>
+</ion-content>
